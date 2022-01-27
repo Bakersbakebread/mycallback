@@ -1,0 +1,28 @@
+body {
+    margin: 1rem;
+    font-family: 'Quattrocento', Serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1 {
+    font-family: 'Oswald', Sans-Serif;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.app{
+  margin: 0 auto;
+  max-width: 900px;
+  padding-top: 4rem;
+}
+
+header{
+  padding-top: 4rem;
+  text-align: left;
+}

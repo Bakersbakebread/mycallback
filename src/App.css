@@ -1,0 +1,42 @@
+.param-item{
+  padding-top: 2rem;
+}
+
+label{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.param-item-input-wrapper {
+  display:flex;
+  flex-direction:row;
+   border:1px solid grey;
+   margin-top: 1rem;
+}
+
+.param-item-label{
+  flex-shrink: 1;
+}
+.param-item-input {
+  flex-grow:2;
+  border:none;
+  padding: 1rem;
+  font-size: 28px;
+}
+
+.param-item-input:focus {
+  outline: none;
+}
+
+.param-item-button {
+  border: 0;
+  border-left: 1px solid grey;
+  padding: 1rem;
+  font-size: 20px;
+  background: lightgray;
+}
+
+.param-item-button:hover{
+  background: grey;
+  cursor: pointer;
+}
